@@ -9,6 +9,21 @@
   </head>
   <body>
     <canvas id="appCanvas" class="border-solid border-4 border-black absolute top-[50%] left-[50%] w-[600px] h-[600px] translate-x-[-50%] translate-y-[-50%]"></canvas>
+    <section class="m-4 flex justify-center">
+      <label for="animations">Choose animation:</label>
+      <select name="animations" id="animations">
+        <option value="idle">Idle</option>
+        <option value="jump">Jump</option>
+        <option value="fall">Fall</option>
+        <option value="run">Run</option>
+        <option value="dizzy">Dizzy</option>
+        <option value="sit">Sit</option>
+        <option value="roll">Roll</option>
+        <option value="bite">Bite</option>
+        <option value="ko">KO</option>
+        <option value="gethit">Get hit</option>
+      </select>
+    </section>
     <script src="main.mjs"></script>
   </body>
 </html>
